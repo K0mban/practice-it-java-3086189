@@ -13,7 +13,7 @@ public class MenuBuilder {
     // Print the menuTitle variable to the console.
     System.out.println(menuTitle);
     // Create a variable called menu of type ArrayList.
-    List menu = new ArrayList();
+    List<MenuItem> menu = new ArrayList<>();
     // Create a variable called starter of type MenuItem and pass in the name of
     // your favourite starter.
     MenuItem starter = new MenuItem("Paneer");
